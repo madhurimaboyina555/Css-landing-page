@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+.nav {
+    width:100%;
+    background-color:blueviolet;
+    padding-top:4px;
+    text-align:left;
+    padding-bottom:4px;
+}
+.nav ul {
+    list-style-type: none;
+    color:white;
+    min-width:50px;   
+}
+.nav ul li{
+    display:inline-block;
+    padding-left: 25px;
+}
+.nav ul  li a{
+    text-decoration:none;
+    color:white;
+    font-size:20px;
+}
+.nav ul  li a:hover{
+    text-decoration:none;
+    color:green;
+    font-size:20px;
+    background-color:aliceblue;    
+}
+
+.nav ul ul li a:hover {
+    color: green;   
+}
+
+.nav ul li:hover ul {
+    display: block;
+}
+.nav ul ul {
+    display: none;
+    position: absolute;
+    background-color: mediumpurple;
+    border-top: 0;
+    margin:0;
+    padding:0;    
+}
+.nav ul ul li {
+    display: block;
+}
+        
+        
+/* for services */
+.nav ul{
+    min-width: 50px;
+}
+.nav ul li a:hover{
+    color:white;
+    background-color: blue;
+}
+.nav ul li ul{
+    display: none;
+}
+.nav ul li:hover ul{
+    display: block;
+    position: absolute;
+    padding: 0px;
+    margin: 0px;
+}
+        img{
+            float: left;
+            width: 45%;
+            height: 500px;
+            margin-right: 5px;
+            margin-top: 20px;
+        }
+        .right{
+            float: right;
+            width: 50%;
+        }
+        h4{
+            font-size: 20px;
+        }
+       /** marquee{
+            font-size: 20px;
+            margin-top: 20px;
+            margin-left: 250px;
+            float: right;
+            background: blueviolet;
+            border: 45px;
+            border-radius: 20px;
+            height: 35px;
+            width: 35%;
+            color: black;
+           
+        }  */
+        
+        .footer marquee{
+            margin-left:20px;
+            font-size: 20px;
+            margin-top: 20px;
+            margin-left: 450px;
+            
+            background: blueviolet;
+            border: 45px;
+            border-radius: 20px;
+            height: 35px;
+            width: 35%;
+            color: black;
+            
+        }
+        </style>
+    </head>
+<body style="background-color: aliceblue">
+    <div class="nav">
+            <ul>
+                <li><a href="home.html"> Home </a> </li>
+                <li><a href="about.html"> About Us </a> </li>
+                <li><a href="contact.html"> Contact Us</a></li>
+                <li><a href="services.html">Services</a>
+                    <ul>
+                    <li>Details</li>
+                    <li>Services</li>
+                    </ul>
+                </li>    
+            </ul>
+    </div>
+    
+    
+    <img src="image/ser2.jpg" width="470px" height="550px">
+    <div class="right">
+    
+    <h4 style="color: rebeccapurple">Java:</h4>
+    <p style="text-indent: 45px;">Java is a general-purpose computer-programming language that is concurrent, class-based, object-oriented, and specifically designed to have as few implementation dependencies as possible. It is intended to let application developers "write once, run anywhere" (WORA) meaning that compiled Java code can run on all platforms that support Java without the need for recompilation.Java applications are typically compiled to bytecode that can run on any Java virtual machine (JVM) regardless of computer architecture.As of 2016, Java is one of the most popular programming languages in use, particularly for client-server web applications, with a reported 9 million developersJava was originally developed by James Gosling at Sun Microsystems (which has since been acquired by Oracle Corporation) and released in 1995 as a core component of Sun Microsystems' Java platform. The language derives much of its syntax from C and C++, but it has fewer low-level facilities than either of them.</p>
+    
+    <h4 style="color: rebeccapurple">Ui:</h4>
+    <p style="text-indent: 45px;">The user interface (UI), in the industrial design field of human–computer interaction, is the space where interactions between humans and machines occur. The goal of this interaction is to allow effective operation and control of the machine from the human end, whilst the machine simultaneously feeds back information that aids the operators' decision-making process.Examples of this broad concept of user interfaces include the interactive aspects of computer operating systems, hand tools, heavy machinery operator controls, and process controls. The design considerations applicable when creating user interfaces are related to or involve such disciplines as ergonomics and psychology.The goal of this interaction is to allow effective operation and control of the machine from the human end, whilst the machine simultaneously feeds back information that aids the operators' decision-making process.Examples of this broad concept of user interfaces include the interactive aspects of computer operating systems, hand tools, heavy machinery operator controls, and process controls.</p>
+        </div>
+    
+    <div class="footer">
+    <marquee>Thank You meet you soon!</marquee>
+    </div>
+    
